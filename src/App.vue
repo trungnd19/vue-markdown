@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import Timeline from './components/Timeline.vue'
-</script>
-
 <template>
   <div class="section">
     <div class="container">
-      <Timeline />
+      <RouterView/>
     </div>
   </div>
 </template>

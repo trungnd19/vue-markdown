@@ -23,7 +23,7 @@ import {usePosts} from '../stores/posts'
 import { periods } from "../constant";
 
 const postStore = usePosts()
-postStore.fetchPosts()
+await postStore.fetchPosts()
 </script>
 
 <style scoped></style>
