@@ -10,7 +10,8 @@
   "dependencies": {
     "vue": "^3.2.25",
     "@types/luxon": "^2.3.1",
-    "luxon": "^2.3.1"
+    "luxon": "^2.3.1",
+    "pinia": "^2.0.14"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
