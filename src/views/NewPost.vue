@@ -6,7 +6,8 @@ import { TimelinePost } from "../posts";
 const post: TimelinePost = {
     id: "-1",
     created: DateTime.now(),
-    title: "New post"
+    title: "New post",
+    markdown: ""
 }
 
 </script>
