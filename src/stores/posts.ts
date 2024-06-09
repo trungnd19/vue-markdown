@@ -64,6 +64,18 @@ export const usePosts = defineStore("post", {
       this.ids = ids;
       this.all = all;
     },
+
+    async createPost(post: TimelinePost) {
+      const body = JSON.stringify({...post, created: post.created.toISO()})
+      
+      return fetch("http://127.0.0.1:8000/posts", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: body
+      });
+    }
   },
   // get new state based on existing state, state param = store states
   getters: {
